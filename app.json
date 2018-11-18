@@ -1,0 +1,14 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/classic/classic"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#D1A3C0",
+    "navigationBarTitleText": "吃薯片",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  }
+}

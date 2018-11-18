@@ -1,0 +1,4 @@
+<!--pages/classic/classic.wxml-->
+<!-- <text>pages/classic/classic.wxml</text> -->
+<v-like like="{{classicData.like_status}}" count="{{classicData.fav_nums}}"/>
+<v-movie img='{{classicData.image}}' content='{{classicData.content}}'/>
