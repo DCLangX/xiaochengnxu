@@ -1,0 +1,2 @@
+<!--pages/组件和数据绑定和事件/1/1.wxml-->
+<icon type='search' bindtap='dianji'></icon>

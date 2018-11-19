@@ -1,8 +1,4 @@
-// pages/classic/classic.js
-import {HTTP} from '../../utils/http.js'
-import {LikeModel} from '../../models/classic/like.js'
-let likeModel = new LikeModel()
-let http = new HTTP();
+// pages/组件和数据绑定和事件/index.js
 Page({
 
   /**
@@ -16,18 +12,19 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    http.request({
-      url:'classic/latest',
-      success:(res)=>{
-        this.setData({
-          classicData:res
-        })
-      }
+    this.setData({
+      aaa: [{
+        name: '222',
+        id: '王叔叔'
+      }, {
+        name: '333',
+        id: '老王'
+      }]
     })
+    // console.log(this.data.aaa)
   },
-  onlike: function(e){
-    let behavior = e.detail.behavior;
-    likeModel.like(behavior, this.data.classicData.id, this.data.classicData.type)
+  onlike:function(e){
+    console.log(e)
   },
   /**
    * 生命周期函数--监听页面初次渲染完成

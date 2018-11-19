@@ -1,0 +1,5 @@
+<!--pages/组件和数据绑定和事件/index.wxml-->
+<view wx:for="{{aaa}}">
+  <vv bind:like="onlike" ttt="{{item.id}}" data-id="{{item.id}}"/>
+  <text>{{item.name}}</text>
+</view>
