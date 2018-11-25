@@ -1,0 +1,28 @@
+/*引入样式表 */
+
+.pages {
+  padding: 12px;
+}
+
+.fabucomt {
+  width: 100%;
+}
+
+.huifu {
+  margin-left: -4px;
+  padding: 10px 4px;
+  height: 160px;
+  width: 100%;
+  border: 1px #ddd solid;
+  border-radius: 10px;
+}
+
+.fabu {
+  margin-top: 30rpx;
+  width: 300rpx;
+  font-size: 32rpx;
+  background: #1aad19;
+  outline: 0;
+  color: #fff;
+  border: 0;
+}

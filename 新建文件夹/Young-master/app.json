@@ -1,0 +1,32 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/like/like",
+    "pages/signup/signup",
+    "pages/login/login",
+    "pages/forgetPass/forgetPass",
+    "pages/register/register",
+    "pages/register-next/register-next",
+    "pages/register-last/register-last",
+    "pages/roast/roast",
+    "pages/rantPublish/rantPublish",
+    "pages/rantDetail/rantDetail",
+    "pages/event/event",
+    "pages/eventDetail/eventDetail",
+    "pages/mine/mine",
+    "pages/mine-data/mine-data",
+    "pages/mine-roast/mine-roast",
+    "pages/mine-event/mine-event",
+    "pages/publish/publish",
+    "pages/publishEvent/publishEvent",
+    "pages/publishRoast/publishRoast",
+    "pages/publishAnonym/publishAnonym"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ffe600",
+    "navigationBarTitleText": "躁动",
+    "navigationBarTextStyle": "black"
+  }
+}

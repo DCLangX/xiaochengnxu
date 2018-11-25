@@ -1,0 +1,14 @@
+/*引入样式表 */
+@import '../../style/weui.wxss';
+.weui-textarea{
+  font-size: 32rpx;
+}
+.weui-uploader__title,.weui-uploader__info{
+  font-size: 28rpx;
+  color: #999999;
+}
+.weui-btn{
+  margin-top: 160rpx;
+  width: 300rpx;
+  font-size: 34rpx;
+}
